@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Lecsapcsapat hivatalos weblapja </title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="background-overlay"></div>
+        <div id="background"></div>
+        <h1> LECSAPCSAPAT </h1>
+        
+        <div class="vignette"></div>
+
+        <div class="nevek">
+            <img src="img/Kovács Máté.jpg" alt="Kovács Máté">
+            <div class="nevek-content">
+                <div class="nevek-nev">Kovács Máté</div>
+                <p>Kovács Máté vagyok személyesbe. Legfőbb hobbiaim közé tartozik a zenélés illetve a programozás. Ezek közül az egyik nem megy annyira jól mint a zenélés (big sad). Féltett fegyverem a mágikus Java nyelv szia.</p>
+            </div>
+        </div>
+        <div class="nevek">
+            <img src="img/Olasz Ádám.jpg" alt="Olasz Ádám">
+            <div class="nevek-content">
+                <div class="nevek-nev">Olasz Ádám</div>
+                <p>Olasz Ádám vagyok első ezen a néven. A láncok leverője, pacal megevője. Az IQ szintem az fagyáspont alatti. AMagyar Birodalom utolsó védelmezője.</p>
+            </div>
+        </div>
+        <div class="nevek">
+            <img src="img/Dömötörfy Csongor.jpg" alt="Dömötörfy Csongor">
+            <div class="nevek-content">
+                <div class="nevek-nev">Dömötörfy Csongor</div>
+                <p>Sziasztok, én Dömötörfy Csongor vagyok! A Dömötör torony jogos örököse, a rot megállíthatatlan fogyasztója és a lustaság mestere. "Nous gagnons." ~ Csömötörfy Anád </p>
+            </div>
+        </div>
+        <div class="nevek">
+            <img src="img/Örkény István.jpg" alt="Örkény István">
+            <div class="nevek-content">
+                <div class="nevek-nev">Örkény István</div>
+                <p>Örkényi István-t két dolog hajta: az edzőterem ami jobbá teszi testét és a programozás ami élesíti eszét. Emellett a gitár és a zene ami lázba hozza.</p>
+            </div>
+        </div>
+
+        <div id="player-container">
+            <button id="playPause">▶️</button>
+            <input type="range" id="volume" min="0" max="1" step="0.01">
+            <audio id="audio" loop>
+                <source src="audio/music.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
